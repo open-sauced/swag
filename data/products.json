@@ -1,18 +1,29 @@
 [
   {
-    "name": "Sauced Sticker",
-    "sku": "sku_GBJ2Ep8246qeeT",
+    "name": "Defaced Sauced",
+    "sku": "prod_Hp7y3LMZtEsHuO",
     "price": 300,
     "attribution": "Photo by Shawn",
-    "image": "https://user-images.githubusercontent.com/5713670/86184000-183c3780-bae8-11ea-9a73-fa4ab58a65cc.png",
+    "description": "Tag something 'sauced' with this unique sticker.",
+    "image": "https://user-images.githubusercontent.com/5713670/90081923-5d48b180-dcc3-11ea-93c9-df3c695f79e4.png",
     "currency": "USD"
   },
   {
-    "name": "Pizzaface Sticker",
-    "sku": "sku_GBJ2WWfMaGNC2Z",
+    "name": "Pizza Face",
+    "sku": "prod_Hp7vnX0nP8vr0R",
     "attribution": "Photo by David Douglas",
+    "description": "Represent the sauce with a friendly face for your laptop or similar size accessories.",
     "price": 300,
     "image": "https://user-images.githubusercontent.com/5713670/86184491-2f2f5980-bae9-11ea-9517-79e5ddf22740.png",
+    "currency": "USD"
+  },
+  {
+    "name": "Orange Sharpie",
+    "sku": "prod_Hp7uyQXChOAwvv",
+    "attribution": "Photo by Shawn",
+    "description": "Take open-source outside the bounds of its original gate keepers using the clean strokes. ",
+    "price": 300,
+    "image": "https://user-images.githubusercontent.com/5713670/86184000-183c3780-bae8-11ea-9a73-fa4ab58a65cc.png",
     "currency": "USD"
   }
 ]

@@ -15,14 +15,6 @@ const IndexPage: NextPage = () => {
           </Link>
         </li>
         <li>
-          <Link href="/donate-with-elements">
-            <a className="card elements-style-background">
-              <h2 className="bottom">Donate with Elements</h2>
-              <img src="/elements-card-payment.svg" />
-            </a>
-          </Link>
-        </li>
-        <li>
           <Link href="/use-shopping-cart">
             <a className="card cart-style-background">
               <h2 className="bottom">Use Shopping Cart</h2>
