@@ -17,11 +17,11 @@ const Layout = ({
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@thorwebdev" />
-      <meta name="twitter:title" content="TypeScript Next.js Stripe Example" />
+      <meta name="twitter:site" content="@bdougieYO" />
+      <meta name="twitter:title" content="Open Sauced Swag Shop" />
       <meta
         name="twitter:description"
-        content="Full-stack TypeScript example using Next.js, react-stripe-js, and stripe-node."
+        content="Swag for an open source community."
       />
       <meta
         name="twitter:image"
@@ -37,9 +37,9 @@ const Layout = ({
             </a>
           </Link>
           <h1>
-            <span className="light">Stripe Sample</span>
+            <span className="light">SWAG</span>
             <br />
-            Next.js, TypeScript, and Stripe 🔒💸
+            Open Sauced 🍕
           </h1>
         </div>
       </header>
@@ -53,11 +53,11 @@ const Layout = ({
           target="_blank"
           rel="noopener noreferrer"
         >
-          Stripe Sample
+         sample site
         </a>
         .{' View code on '}
         <a
-          href="https://github.com/vercel/next.js/tree/canary/examples/with-stripe-typescript"
+          href="https://github.com/open-sauced/swag"
           target="_blank"
           rel="noopener noreferrer"
         >
