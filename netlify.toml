@@ -1,4 +1,4 @@
 [build]
   command   = "next build && next export"
   functions = "out_functions"
-  publish   = "out"
+  publish   = "out_publish"
