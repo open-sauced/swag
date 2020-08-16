@@ -1,11 +1,11 @@
 [
   {
-    "name": "Defaced Sauced",
+    "name": "Stay Saucy",
     "sku": "prod_Hp7y3LMZtEsHuO",
-    "price": 300,
+    "price": 600,
     "attribution": "Photo by Shawn",
-    "description": "Tag something 'sauced' with this unique sticker.",
-    "image": "https://user-images.githubusercontent.com/5713670/90081923-5d48b180-dcc3-11ea-93c9-df3c695f79e4.png",
+    "description": "Represent your passion for open-source by showing you stay saucy.",
+    "image": "https://user-images.githubusercontent.com/5713670/90302288-ff9a9d80-de59-11ea-88ac-9743eaf3c0c6.jpg",
     "currency": "USD"
   },
   {
@@ -13,8 +13,8 @@
     "sku": "prod_Hp7vnX0nP8vr0R",
     "attribution": "Photo by David Douglas",
     "description": "Represent the sauce with a friendly face for your laptop or similar size accessories.",
-    "price": 300,
-    "image": "https://user-images.githubusercontent.com/5713670/86184491-2f2f5980-bae9-11ea-9517-79e5ddf22740.png",
+    "price": 500,
+    "image": "https://user-images.githubusercontent.com/5713670/90302730-1db5cd00-de5d-11ea-9682-1bdd50b49804.png",
     "currency": "USD"
   },
   {
@@ -22,8 +22,8 @@
     "sku": "prod_Hp7uyQXChOAwvv",
     "attribution": "Photo by Shawn",
     "description": "Take open-source outside the bounds of its original gate keepers using the clean strokes. ",
-    "price": 300,
-    "image": "https://user-images.githubusercontent.com/5713670/86184000-183c3780-bae8-11ea-9a73-fa4ab58a65cc.png",
+    "price": 400,
+    "image": "https://user-images.githubusercontent.com/5713670/90302731-20182700-de5d-11ea-8e7a-c1d021c834bb.png",
     "currency": "USD"
   }
 ]
