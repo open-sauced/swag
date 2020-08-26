@@ -10,10 +10,10 @@ const Products = () => {
     <section className="products">
       {products.map(product => (
         <div className="max-w-sm rounded overflow-hidden shadow-lg" key={product.sku}>
-          <img className={product.image} alt={product.name} />
+          <img className="w-full" src={product.image} alt={product.name} />
           <div className="px-6 py-4">
-            <p className="xt-sm text-darkgrey flex items-center">
-              <h2 className="nt-bold text-xl mb-2">{product.name}</h2>
+            <p className="text-sm text-darkgrey flex items-center">
+              <h2 className="font-bold text-xl mb-2">{product.name}</h2>
               <p className="text-xl m-2">
                 {formatCurrencyString({
                   value: product.price,
