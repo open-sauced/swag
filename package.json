@@ -4,7 +4,7 @@
   "description": "Full-stack TypeScript example using Next.js, react-stripe-js, and stripe-node.",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start"
   },
   "license": "ISC",
