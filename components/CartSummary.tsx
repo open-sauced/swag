@@ -16,14 +16,14 @@ const CartSummary = () => {
     event.preventDefault();
     setLoading(true);
 
-    const response = await fetchPostJSON("/api/checkout_sessions/cart", cartDetails);
+    const response = await fetchPostJSON('/.netlify/functions/create-session', cartDetails);
 
     if (response.statusCode === 500) {
       console.error(response.message);
       return;
     }
 
-    redirectToCheckout({sessionId: response.id});
+    redirectToCheckout({sessionId: response.sessionId});
   };
 
   return (

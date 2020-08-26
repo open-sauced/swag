@@ -11,3 +11,5 @@ dist
 .next
 .vercel
 .env*.local
+# Local Netlify folder
+.netlify
