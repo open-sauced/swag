@@ -1,14 +1,5 @@
 [
   {
-    "name": "Stay Saucy",
-    "sku": "prod_Hp7y3LMZtEsHuO",
-    "price": 600,
-    "attribution": "Photo by Shawn",
-    "description": "Represent your passion for open-source by showing you stay saucy.",
-    "image": "https://user-images.githubusercontent.com/5713670/90302288-ff9a9d80-de59-11ea-88ac-9743eaf3c0c6.jpg",
-    "currency": "USD"
-  },
-  {
     "name": "Pizza Face",
     "sku": "prod_Hp7vnX0nP8vr0R",
     "attribution": "Photo by David Douglas",
