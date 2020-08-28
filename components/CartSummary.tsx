@@ -27,7 +27,7 @@ const CartSummary = () => {
   };
 
   return (
-    <form onSubmit={handleCheckout}>
+    <form className="sticky-bottom px-8" onSubmit={handleCheckout}>
       <h2>Cart summary</h2>
       {/* This is where we'll render our cart */}
       <p suppressHydrationWarning>
