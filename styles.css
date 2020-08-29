@@ -209,11 +209,11 @@ button:disabled {
   box-shadow: 20px 20px 60px #614b91, -20px -20px 60px #bd91ff;
 }
 .cart-style-background {
-  background: teal;
+  background: #03b1a3;
   transition: box-shadow var(--transition-duration);
 }
 .card.cart-style-background:hover {
-  box-shadow: 20px 20px 60px teal, -20px -20px 60px teal;
+  box-shadow: 20px 20px 60px #03b1a3, -20px -20px 60px #03b1a3;
 }
 
 /* Products */
@@ -344,6 +344,7 @@ pre {
 
   .card-list {
     padding-top: 0;
+    margin-top: 35px;
   }
 
   code,

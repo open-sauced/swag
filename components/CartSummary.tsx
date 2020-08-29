@@ -39,7 +39,8 @@ const CartSummary = () => {
 
       <div className="mb-2 sm:flex-row flex">
         <button
-          className="w-1/2 mr-2 mt-2 min-h-full text-xs bg-greenblue-light hover:bg-greenblue-dark text-white font-bold rounded"
+          className="w-1/2 mr-2 mt-2 min-h-full text-xs bg-gold
+          hover:bg-yellow-cheesy text-white font-bold rounded"
           type="submit"
           disabled={cartEmpty || loading}>
           Checkout

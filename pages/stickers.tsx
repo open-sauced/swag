@@ -7,7 +7,7 @@ import Products from "../components/Products";
 
 const DonatePage: NextPage = () => {
   return (
-    <Layout title="SWAG">
+    <Layout title="Stickers | Open Sauced">
       <div className="page-container">
         <Cart>
           <Products />
