@@ -47,7 +47,7 @@ body {
 
 .page-container {
   padding-bottom: 60px;
-  /* max-width: var(--page-width-max); */
+  max-width: var(--page-width-max);
 }
 
 h1 {
@@ -85,8 +85,17 @@ header {
 }
 
 .header-content {
+  background: white;
   position: sticky;
   top: 45px;
+  padding: 16px 0;
+}
+
+.links {
+  margin-top:35px;
+  position: static;
+  bottom: 45px;
+  align-items: flex-end;
 }
 
 .logo img {
