@@ -7,13 +7,9 @@ import Products from "../components/Products";
 
 const DonatePage: NextPage = () => {
   return (
-    <Layout title="Shopping Cart | Next.js + TypeScript Example">
+    <Layout title="SWAG">
       <div className="page-container">
-        <h1>Shopping Cart</h1>
-        <p>
-          Powered by the <a href="https://use-shopping-cart.netlify.app/">use-shopping-cart</a> React hooks library.
-        </p>
-        <Cart>
+        <Cart className="sm:flex-col">
           <Products />
           <CartSummary />
         </Cart>

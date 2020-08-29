@@ -7,7 +7,7 @@ const Products = () => {
   const {addItem, removeItem} = useShoppingCart();
 
   return (
-    <section className="products">
+    <section className="products sm:flex-col">
       {products.map(product => (
         <div className="max-w-sm rounded overflow-hidden shadow-lg" key={product.sku}>
           <img className="w-full" src={product.image} alt={product.name} />

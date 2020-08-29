@@ -301,6 +301,16 @@ pre {
 }
 
 @media only screen and (max-width: 600px) {
+  .products {
+    grid-template-columns: auto;
+  }
+
+  .sticky-bottom {
+    position: auto;
+    margin-top: 4px;
+    align-self: auto;
+  }
+
   .container {
     flex-direction: column;
   }
