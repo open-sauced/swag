@@ -36,7 +36,6 @@ const Layout = ({children, title = "TypeScript Next.js Stripe Example"}: Props) 
         <ul>
         <li><a href="https://opensauced.pizza">opensauced.pizza</a></li>
         <li><a href="https://dev.to/opensauced">blog</a></li>
-        <li><a href="https://subscribe.opensauced.pizza">newsletter</a></li>
         <li><a href="https://github.com/open-sauced">github</a></li>
         </ul>
         </div>
