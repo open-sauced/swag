@@ -18,7 +18,7 @@ const IndexPage: NextPage = () => {
           <Link href="/stickers">
             <a className="card cart-style-background">
               <h2 className="bottom">Stickers</h2>
-              <img style={{borderRadius: 10}} src="/pizza.jpg" />
+              <img style={{borderRadius: 10}} src="/pizza.png" />
             </a>
           </Link>
         </li>
