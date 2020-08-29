@@ -1,6 +1,6 @@
-# Sample using Next.js, TypeScript, and react-stripe-js 🔒💸
+# SWAG uses Next.js, TypeScript, and use-shopping-cart 🔒💸
 
-This is a full-stack TypeScript example using:
+This is a full-stack TypeScript powered swag shop using:
 
 - Frontend:
   - Next.js and [SWR](https://github.com/zeit/swr)
@@ -8,36 +8,6 @@ This is a full-stack TypeScript example using:
 - Backend
   - Next.js [API routes](https://nextjs.org/docs/api-routes/introduction)
   - [stripe-node with TypeScript](https://github.com/stripe/stripe-node#usage-with-typescript)
-
-## Demo
-
-- Live demo: https://nextjs-typescript-react-stripe-js.now.sh/
-- CodeSandbox: https://codesandbox.io/s/github/stripe-samples/nextjs-typescript-react-stripe-js
-- Tutorial: https://dev.to/thorwebdev/type-safe-payments-with-next-js-typescript-and-stripe-4jo7
-
-The demo is running in test mode -- use `4242424242424242` as a test card number with any CVC + future expiration date.
-
-Use the `4000000000003220` test card number to trigger a 3D Secure challenge flow.
-
-Read more about testing on Stripe at https://stripe.com/docs/testing.
-
-<details open><summary>Shopping Cart Checkout Demo</summary>
-<img src="./public/shopping_cart_demo.gif" alt="A gif of the Shopping Cart Checkout payment page." align="center">
-</details>
-
-<details><summary>Checkout Donations Demo</summary>
-<img src="./public/checkout_demo.gif" alt="A gif of the Checkout payment page." align="center">
-</details>
-
-<details><summary>Elements Donations Demo</summary>
-<img src="./public/elements_demo.gif" alt="A gif of the custom Elements checkout page." align="center">
-</details>
-
-## Deploy your own
-
-Once you have access to [the environment variables you'll need](#required-configuration) from the [Stripe Dashboard](https://dashboard.stripe.com/apikeys), deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/select-scope?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/with-stripe-typescript&id=70107786&env=NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,STRIPE_SECRET_KEY&envDescription=Enter%20your%20Stripe%20Keys&envLink=https://github.com/vercel/next.js/tree/canary/examples/with-stripe-typescript%23required-configuration)
 
 ## Included functionality
 
@@ -63,25 +33,6 @@ Once you have access to [the environment variables you'll need](#required-config
 
 ## How to use
 
-### Using `create-next-app`
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-stripe-typescript with-stripe-typescript-app
-# or
-yarn create next-app --example with-stripe-typescript with-stripe-typescript-app
-```
-
-### Download manually
-
-Download the example:
-
-```bash
-curl https://codeload.github.com/vercel/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-stripe-typescript
-cd with-stripe-typescript
-```
-
 ### Required configuration
 
 Copy the `.env.local.example` file into a file named `.env.local` in the root directory of this project:
@@ -102,9 +53,6 @@ Now install the dependencies and start the development server.
 ```bash
 npm install
 npm run dev
-# or
-yarn
-yarn dev
 ```
 
 ### Forward webhooks to your local dev server
@@ -135,19 +83,7 @@ After adding an environment variable you will need to rebuild your project for i
 
 You can deploy this app to the cloud with [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
-#### Deploy Your Local Project
-
-To deploy your local project to Vercel, push it to GitHub/GitLab/Bitbucket and [import to Vercel](https://vercel.com/import/git?utm_source=github&utm_medium=readme&utm_campaign=next-example).
-
-**Important**: When you import your project on Vercel, make sure to click on **Environment Variables** and set them to match your `.env.local` file.
-
-#### Deploy from Our Template
-
-Alternatively, you can deploy using our template by clicking on the Deploy button below.
-
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/select-scope?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/with-stripe-typescript&id=70107786&env=NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,STRIPE_SECRET_KEY&envDescription=Enter%20your%20Stripe%20Keys&envLink=https://github.com/vercel/next.js/tree/canary/examples/with-stripe-typescript%23required-configuration)
-
-## Authors
+## Original Template Authors
 
 - [@thorsten-stripe](https://twitter.com/thorwebdev)
 - [@lfades](https://twitter.com/luis_fades)
