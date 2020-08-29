@@ -29,8 +29,10 @@ const Products = () => {
               onClick={() => addItem(product)}>
               Add to cart
             </button>
-            <button
-              className="w-1/2 m-2 min-h-full text-xs bg-gold hover:bg-yellow-cheesy text-white font-bold py-2 px-4 rounded"
+            <button style={{color: "#8b8b8b"}}
+              className="w-1/2 m-2 min-h-full border-solid border-2
+              border-gray-400 text-xs bg-white hover:bg-gray-400
+              font-bold py-2 px-4 rounded"
               onClick={() => removeItem(product.sku)}>
               Remove
             </button>

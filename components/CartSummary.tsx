@@ -45,7 +45,9 @@ const CartSummary = () => {
           Checkout
         </button>
         <button
-          className="w-1/2 mt-2 ml-2 min-h-full text-xs border-grey bg-gold hover:bg-yellow-cheesy hover:text-white font-bold rounded"
+          style={{color: "#8b8b8b"}}
+          className="w-1/2 mt-2 ml-2 min-h-full text-xs border-solid border-2
+              border-gray-400 hover:bg-gray-400 hover:text-white font-bold rounded"
           type="button"
           onClick={clearCart}>
           Clear Cart
