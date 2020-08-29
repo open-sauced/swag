@@ -8,7 +8,7 @@ const DonatePage: NextPage = () => {
     <Layout title="Donate with Checkout | Next.js + TypeScript Example">
       <div className="page-container">
         <h1>Donate with Checkout</h1>
-        <p>Donate to our project 💖</p>
+        <p>Donate to the Open Sauced project 💖</p>
         <CheckoutForm />
       </div>
     </Layout>

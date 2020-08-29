@@ -60,7 +60,6 @@ const CheckoutForm = () => {
         currency={config.CURRENCY}
         onChange={handleInputChange}
       />
-      <StripeTestCards />
       <button
         className="checkout-style-background"
         type="submit"
