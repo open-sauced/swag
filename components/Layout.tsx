@@ -24,11 +24,11 @@ const Layout = ({children, title = "TypeScript Next.js Stripe Example"}: Props) 
         <div className="header-content">
           <Link href="/">
             <a className="logo">
-              <h1>🍕 SWAG</h1>
+              <h1  className="bg-clip-text text-transparent bg-gradient-to-r from-gold via-red-saucy to-red-dark">🍕 <span>SWAG</span></h1>
             </a>
           </Link>
           <p>
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-gold via-red-saucy to-red-dark"> Powered by the</span>{" "}
+            <span> Powered by the</span>{" "}
             <a href="https://use-shopping-cart.netlify.app/">use-shopping-cart</a> library.
           </p>
         </div>
