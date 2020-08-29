@@ -9,7 +9,7 @@ const Cart = ({ children }: { children: ReactNode }) => (
     stripe={getStripe()}
     currency={config.CURRENCY}
   >
-    <div className="space-x-4 flex flex-auto">{children}</div>
+    <div className="space-x-4 foo flex flex-auto">{children}</div>
   </CartProvider>
 );
 
