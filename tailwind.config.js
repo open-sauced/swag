@@ -1,29 +1,60 @@
+const { colors: { red, yellow, blue, orange } } = require('tailwindcss/defaultTheme');
+
 module.exports = {
   purge: [],
   theme: {
-    colors: {
-      accent: "#faeace",
-      background: "#fffbf5",
-      saucyred: "#d95c41",
-      cheesyyellow: "#f6d809",
-      offwhite: "#fbfbfb",
-      lightestgrey: "#e6e6e6",
-      lightergrey: "#bcbcbc",
-      lightgrey: "#8b8b8b",
-      backgroundgrey: "#2F372E",
-      grey: "#313d3e",
-      darkgrey: "#171c1d",
-      darkestgrey: "#0c0e0e",
-      gold: "#f6bc00",
-      orange: "#fe9d68",
-      blue: "#4d9abf",
-      green: "#00c7b7",
-      darkgreen: "#03b1a3",
-      red: "#fb6d77",
-      darkred: "#fa3946",
+    extend: {
+      colors: {
+        background: "#fffbf5",
+        offwhite: "#fbfbfb",
+        accent: "#faeace",
+
+        gold: "#f6bc00",
+
+        greenblue: {
+          light: "#00c7b7",
+          dark: "#03b1a3",
+        },
+
+        red: {
+          ...red,
+          base: "#fb6d77",
+          dark: "#fa3946",
+          saucy: "#d95c41",
+        },
+
+        yellow: {
+          ...yellow,
+          cheesy: "#f6d809",
+        },
+
+        grey: {
+          100: "#fafafa",
+          200: "#f2f2f2",
+          300: "#e6e6e6",
+          400: "#bcbcbc",
+          500: "#8b8b8b",
+          600: "#2F372E",
+          700: "#313d3e",
+          800: "#171c1d",
+          900: "#0c0e0e",
+        },
+
+        blue: {
+          ...blue,
+          base: "#4d9abf",
+        },
+
+        orange: {
+          ...orange,
+          450: "#fe9d68",
+        }
+      },
     },
-    extend: {},
   },
   variants: {},
   plugins: [],
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
 };

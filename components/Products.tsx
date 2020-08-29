@@ -25,12 +25,12 @@ const Products = () => {
           </div>
           <div className="mb-2 flex">
             <button
-              className="w-1/2 m-2 min-h-full text-xs bg-green hover:bg-darkgreen text-white font-bold py-2 px-4 rounded"
+              className="w-1/2 m-2 min-h-full text-xs bg-greenblue-light hover:bg-greenblue-dark text-white font-bold py-2 px-4 rounded"
               onClick={() => addItem(product)}>
               Add to cart
             </button>
             <button
-              className="w-1/2 m-2 min-h-full text-xs bg-gold hover:bg-cheesyyellow text-white font-bold py-2 px-4 rounded"
+              className="w-1/2 m-2 min-h-full text-xs bg-gold hover:bg-yellow-cheesy text-white font-bold py-2 px-4 rounded"
               onClick={() => removeItem(product.sku)}>
               Remove
             </button>

@@ -29,16 +29,6 @@ const Layout = ({children, title = "TypeScript Next.js Stripe Example"}: Props) 
       </header>
       {children}
     </div>
-    <div className="banner">
-      <span>
-        This site is open-sourced.
-        {" View the code on "}
-        <a href="https://github.com/open-sauced/swag" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>
-        .
-      </span>
-    </div>
   </>
 );
 
