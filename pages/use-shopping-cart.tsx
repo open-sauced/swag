@@ -9,7 +9,7 @@ const DonatePage: NextPage = () => {
   return (
     <Layout title="SWAG">
       <div className="page-container">
-        <Cart className="sm:flex-col">
+        <Cart>
           <Products />
           <CartSummary />
         </Cart>

@@ -3,8 +3,7 @@
   --body-color: #fcfdfe;
   --checkout-color: #8f6ed5;
   --elements-color: #6772e5;
-  --body-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    sans-serif;
+  --body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --h1-color: #1a1f36;
   --h2-color: #7b818a;
   --h3-color: #a3acb9;
@@ -144,8 +143,8 @@ li {
 
 .FormRow,
 fieldset,
-input[type='number'],
-input[type='text'] {
+input[type="number"],
+input[type="text"] {
   border-radius: var(--radius);
   padding: 5px 12px;
   width: 100%;
@@ -155,7 +154,7 @@ input[type='text'] {
   margin-top: 10px;
 }
 
-input[type='range'] {
+input[type="range"] {
   margin: 5px 0;
   width: 100%;
 }
@@ -212,7 +211,7 @@ button:disabled {
 .products {
   display: grid;
   gap: 2rem;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   margin-top: 3rem;
 }
 
@@ -243,7 +242,7 @@ button:disabled {
 /* Code block */
 code,
 pre {
-  font-family: 'SF Mono', 'IBM Plex Mono', 'Menlo', monospace;
+  font-family: "SF Mono", "IBM Plex Mono", "Menlo", monospace;
   font-size: 12px;
   background: rgba(0, 0, 0, 0.03);
   padding: 12px;
@@ -301,14 +300,22 @@ pre {
 }
 
 @media only screen and (max-width: 600px) {
+  header {
+    flex: 0;
+  }
+
   .products {
     grid-template-columns: auto;
   }
 
   .sticky-bottom {
-    position: auto;
-    margin-top: 4px;
-    align-self: auto;
+    position: static;
+    margin-top: 35px;
+    align-self: baseline;
+  }
+
+  .foo {
+    flex-direction: column !important;
   }
 
   .container {
