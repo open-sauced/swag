@@ -1,10 +1,12 @@
-# SWAG uses Next.js, TypeScript, and use-shopping-cart 🔒💸
+![SWAG](https://swag.opensauced.pizza/social_card.png)
 
 This is a full-stack TypeScript powered swag shop using:
 
 - Frontend:
   - Next.js and [SWR](https://github.com/zeit/swr)
-  - [react-stripe-js](https://github.com/stripe/react-stripe-js) for [Checkout](https://stripe.com/checkout) and [Elements](https://stripe.com/elements)
+  - [react-stripe-js](https://github.com/stripe/react-stripe-js) for [Donating](https://swag.opensauced.pizza/donate)
+  - [use-shopping-cart](https://github.com/dayhaysoos/use-shopping-cart) for [Stickers](https://swag.opensauced.pizza/stickers)
+
 - Backend
   - Next.js [API routes](https://nextjs.org/docs/api-routes/introduction)
   - [stripe-node with TypeScript](https://github.com/stripe/stripe-node#usage-with-typescript)
