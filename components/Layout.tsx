@@ -28,7 +28,7 @@ const Layout = ({children, title = "TypeScript Next.js Stripe Example"}: Props) 
             </a>
           </Link>
           <p>
-            <span className="light"> Powered by the</span>{" "}
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-gold via-red-saucy to-red-dark"> Powered by the</span>{" "}
             <a href="https://use-shopping-cart.netlify.app/">use-shopping-cart</a> library.
           </p>
         </div>
