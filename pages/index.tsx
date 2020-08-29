@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 const IndexPage: NextPage = () => {
   return (
-    <Layout title="Home | Next.js + TypeScript Example">
+    <Layout title="SWAG |  Open Sauced">
       <ul className="card-list">
         <li>
           <Link href="/donate">
