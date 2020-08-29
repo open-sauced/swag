@@ -32,6 +32,14 @@ const Layout = ({children, title = "TypeScript Next.js Stripe Example"}: Props) 
             <a href="https://use-shopping-cart.netlify.app/">use-shopping-cart</a> library.
           </p>
         </div>
+        <div className="links">
+        <ul>
+        <li><a href="https://opensauced.pizza">opensauced.pizza</a></li>
+        <li><a href="https://dev.to/opensauced">blog</a></li>
+        <li><a href="https://subscribe.opensauced.pizza">newsletter</a></li>
+        <li><a href="https://github.com/open-sauced">github</a></li>
+        </ul>
+        </div>
       </header>
       {children}
     </div>
