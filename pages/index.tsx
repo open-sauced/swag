@@ -7,15 +7,15 @@ const IndexPage: NextPage = () => {
     <Layout title="Home | Next.js + TypeScript Example">
       <ul className="card-list">
         <li>
-          <Link href="/donate-with-checkout">
+          <Link href="/donate">
             <a className="card checkout-style-background">
-              <h2 className="bottom">Donate with Checkout</h2>
+              <h2 className="bottom">Donate</h2>
               <img src="/checkout-one-time-payments.svg" />
             </a>
           </Link>
         </li>
         <li>
-          <Link href="/use-shopping-cart">
+          <Link href="/stickers">
             <a className="card cart-style-background">
               <h2 className="bottom">Stickers</h2>
               <img style={{borderRadius: 10}} src="/pizza.jpg" />
@@ -27,4 +27,4 @@ const IndexPage: NextPage = () => {
   );
 };
 
-export default IndexPage;
+export default IndexPage
