@@ -16,10 +16,15 @@ const Layout = ({children, title = "TypeScript Next.js Stripe Example"}: Props) 
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta property="og:title" content="Open Sauced | SWAG Shop"/>
+      <meta property="og:image" content="https://swag.opensauced.pizza/social_card.png"/>
+
+      <meta property="og:description" content="Our mission is to build a welcoming community for those looking to participate in open-source. Represent your path into open-source with a pizza sticker."/>
+      <meta property="og:url" content="https://swag.opensauced.pizza"/>
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@bdougieYO" />
-      <meta name="twitter:title" content="Open Sauced SWAG Shop" />
-      <meta name="twitter:description" content="Swag for an open source community." />
+      <meta name="twitter:title" content="Open Sauced | SWAG Shop" />
+      <meta name="twitter:description" content="Represent your path into open-source with a pizza sticker." />
       <meta name="twitter:image" content="https://swag.opensauced.pizza/social_card.png" />
     </Head>
     <div className="container sm:flex-col">
