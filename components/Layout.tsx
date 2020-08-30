@@ -18,8 +18,9 @@ const Layout = ({children, title = "TypeScript Next.js Stripe Example"}: Props) 
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta property="og:title" content="Open Sauced | SWAG Shop"/>
       <meta property="og:image" content="https://swag.opensauced.pizza/social_card.png"/>
-      <meta property="og:description" content="Represent your path into open-source with a pizza sticker."/>
-      <meta property="og:url" content="https://swag.opensauced.pizzae"/>
+
+      <meta property="og:description" content="Our mission is to build a welcoming community for those looking to participate in open-source. Represent your path into open-source with a pizza sticker."/>
+      <meta property="og:url" content="https://swag.opensauced.pizza"/>
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@bdougieYO" />
       <meta name="twitter:title" content="Open Sauced | SWAG Shop" />
