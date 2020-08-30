@@ -19,7 +19,7 @@ const Layout = ({children, title = "TypeScript Next.js Stripe Example"}: Props) 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@bdougieYO" />
       <meta name="twitter:title" content="Open Sauced | SWAG Shop" />
-      <meta name="twitter:description" content="SWAG for the opensauced.pizza" />
+      <meta name="twitter:description" content="Represent your path into open-source with a pizza sticker." />
       <meta name="twitter:image" content="https://swag.opensauced.pizza/social_card.png" />
     </Head>
     <div className="container sm:flex-col">
