@@ -27,7 +27,7 @@ const Layout = ({ children, title = "TypeScript Next.js Stripe Example" }: Props
       <meta name="twitter:description" content="Represent your path into open-source with a pizza sticker." />
       <meta name="twitter:image" content="https://swag.opensauced.pizza/social_card.png" />
     </Head>
-    <div className="h-screen w-full flex flex-col md:flex-row">
+    <div className="h-screen w-full flex flex-col lg:flex-row">
       <header className="flex flex-col justify-between p-4">
         <div className="header-content">
           <Link href="/">
