@@ -84,13 +84,6 @@ header {
   padding-right: 48px;
 }
 
-.header-content {
-  background: #fcfdfe;
-  position: sticky;
-  top: 45px;
-  padding: 24px 0;
-}
-
 .links {
   margin-top:35px;
   position: static;
@@ -285,12 +278,6 @@ pre {
 @media only screen and (max-width: 980px) {
   .container {
     flex-direction: column;
-  }
-
-  .header-content {
-    max-width: 280px;
-    position: relative;
-    top: 0;
   }
 
   .card {
