@@ -103,29 +103,22 @@ li {
   margin: 0;
 }
 
-.card-list {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  padding-top: 64px;
-}
-
 .card {
   display: block;
   border-radius: 10px;
   position: relative;
   padding: 12px;
   height: 320px;
-  flex: 0 0 33%;
-  min-width: 304px;
-  width: 33%;
+  width: 304px;
   margin: 0 20px 20px 0;
   text-decoration: none;
   box-shadow: -20px 20px 60px #abacad, 20px -20px 60px #ffffff;
 }
+
 .card h2 {
   color: #fff;
 }
+
 .card h2.bottom {
   position: absolute;
   bottom: 10px;
