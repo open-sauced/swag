@@ -1,5 +1,4 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-
 /*
  * Product data can be loaded from anywhere. In this case, we’re loading it from
  * a local JSON file, but this could also come from an async call to your
@@ -10,8 +9,12 @@ import { NextApiRequest, NextApiResponse } from 'next';
  */
 import { validateCartItems } from 'use-shopping-cart/src/serverUtil';
 import inventory from '../../../data/products.json';
+import shippingCountries from '../../../data/shippingCountries.json';
+
+// const AllowedCountry: <AllowedCountry[]>;
 
 import Stripe from 'stripe';
+
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   // https://github.com/stripe/stripe-node#configuration
   apiVersion: '2020-03-02',
@@ -32,7 +35,7 @@ export default async function handler(
         payment_method_types: ['card'],
         billing_address_collection: 'auto',
         shipping_address_collection: {
-          allowed_countries: ['US', 'CA'],
+          allowed_countries: shippingCountries as Stripe.Checkout.Session.ShippingAddressCollection.AllowedCountry[],
         },
         line_items,
         success_url: `${req.headers.origin}/result?session_id={CHECKOUT_SESSION_ID}`,
