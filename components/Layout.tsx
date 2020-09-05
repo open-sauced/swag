@@ -48,7 +48,7 @@ const Layout = ({ children, title = "TypeScript Next.js Stripe Example" }: Props
           </ul>
         </div>
       </header>
-      <main className="flex-1">
+      <main className="px-3 flex-1">
         {children}
       </main>
     </div>
