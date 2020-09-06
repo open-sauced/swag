@@ -8,9 +8,8 @@
   publish   = "out_publish"
   framework = "#static"
 
-## This redirects to the stream lab
 [[redirects]]
   from = "/merch"
   to = "https://merch.streamelements.com/bdougieyo"
   status = 200
-  force = true # COMMENT: ensure that we always redirect
+  force = true
