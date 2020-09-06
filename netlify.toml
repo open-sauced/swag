@@ -7,3 +7,9 @@
   functions = "out_functions"
   publish   = "out_publish"
   framework = "#static"
+
+[[redirects]]
+  from = "/merch"
+  to = "https://merch.streamelements.com/bdougieyo"
+  status = 200
+  force = true
