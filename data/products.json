@@ -16,5 +16,14 @@
     "price": 300,
     "image": "https://user-images.githubusercontent.com/5713670/90302731-20182700-de5d-11ea-8e7a-c1d021c834bb.png",
     "currency": "USD"
+  },
+  {
+    "name": "Sauced",
+    "sku": "prod_Hp7uyQXChOAwvv",
+    "attribution": "Photo by Shawn",
+    "description": "If you don't got sauce, then you lost. Here is your chanced to get sauced.",
+    "price": 200,
+    "image": "https://user-images.githubusercontent.com/5713670/95026919-8fceb500-0649-11eb-981b-d4de1c6226df.png",
+    "currency": "USD"
   }
 ]
